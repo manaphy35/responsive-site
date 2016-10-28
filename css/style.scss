@@ -3,10 +3,10 @@
 $baseFontFamily :"游ゴシック", YuGothic, "メイリオ",Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 
 // colors
-$baseColor: #fff;
-$subColor: 	#f0f8ff;
-$keyColor: #4682b4;
-$fontColor: #5e5e5e;
+$baseColor: #f0f8ff;
+$subColor: 	#4682b4;
+$keyColor: #008b8b;
+$fontColor: #2f4f4f;
 
 
 /* Base
@@ -19,7 +19,7 @@ body{
   font-family:$baseFontFamily;
   line-height:1.4;
   letter-spacing: 0.1em; 
-  background-color: $baseColor;
+  background-color: #fff;
 }
 
 /* Align
@@ -58,13 +58,13 @@ section {
   }
   h2 {
     font-size: 3.2rem;
-    color: $keyColor;
+    color: $subColor;
   }
 }
 
 // Spots
 #introduction {
-  background-color: $baseColor;
+  background-color: #fff;
   .container {
     @include display-flex;
     justify-content: space-between;
@@ -74,24 +74,24 @@ section {
     margin-bottom: 30px;
   }
   h3 {
-    color: #EEE;
+    color: #fff;
     margin: 0;
     padding: 10px;
     font-size: 2.4rem;
     font-weight: bold;
     @include border-radius(6px 6px 0 0);
-    background: $keyColor;
+    background-color: $keyColor;
   }
   .spot-box {
     @include flex(1);
-    background-color: $subColor;
+    background-color: $baseColor;
     margin: 0 0 20px 0;
     @include border-radius(6px);
     @include box-sizing(border-box);
   }
   p {
     margin: 20px 0;
-    padding: 0 20px 20px 20px ;
+    padding: 0 20px 0 20px ;
   }
 
 }
@@ -99,7 +99,7 @@ section {
 /* Footer
 --------------------------------------------------------------*/
 #link{
-  background-color: $keyColor;
+  background-color: $subColor;
   padding: 20px 0 10px 0;
   text-align: center;
   color: #FFF;
@@ -122,8 +122,8 @@ section {
       text-decoration: none;
       line-height: 50px;
     
-      color: $keyColor;
-      background-color: $subColor;
+      color: $subColor;
+      background-color: #fffacd;
       @include border-radius(10px);
     }
   }
