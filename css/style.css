@@ -10,7 +10,7 @@ body {
   font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   line-height: 1.4;
   letter-spacing: 0.1em;
-  background-color: #eee; }
+  background-color: #fff; }
 
 /* Align
 ------------------------------------------------------------*/
@@ -44,7 +44,7 @@ section {
     color: #4682b4; }
 
 #introduction {
-  background-color: #eee; }
+  background-color: #fff; }
   #introduction .container {
     display: -webkit-flex;
     display: flex;
