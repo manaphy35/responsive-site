@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* Base
+------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #5e5e5e;
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  background-color: #eee; }
+
+/* Align
+------------------------------------------------------------*/
+.text-center {
+  text-align: center; }
+
+/* Layout
+------------------------------------------------------------*/
+.block-center, section .container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*  Top
+------------------------------------------------------------*/
+.main_image {
+  background-image: url("https://photo.kankouyohou.com/images/43/kumamoto_1.jpg");
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; }
+
+/* Contents
+------------------------------------------------------------*/
+section {
+  padding: 10px 0 30px 0; }
+  section .container {
+    width: 90%; }
+  section h2 {
+    font-size: 3.2rem;
+    color: #4682b4; }
+
+#introduction {
+  background-color: #eee; }
+  #introduction .container {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    -webkit-flex-direction: column;
+    flex-direction: column; }
+  #introduction h2 {
+    margin-bottom: 30px; }
+  #introduction h3 {
+    color: #EEE;
+    margin: 0;
+    padding: 10px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px;
+    border-radius: 6px 6px 0 0;
+    background: #4682b4; }
+  #introduction .spot-box {
+    -webkit-flex: 1;
+    flex: 1;
+    background-color: #f0f8ff;
+    margin: 0 0 20px 0;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  #introduction p {
+    margin: 20px 0;
+    padding: 0 20px 20px 20px; }
+
+/* Footer
+--------------------------------------------------------------*/
+#link {
+  background-color: #4682b4;
+  padding: 20px 0 10px 0;
+  text-align: center;
+  color: #FFF; }
+  #link h2 {
+    size: 1.6rem;
+    color: #FFF; }
+  #link .button-readmore {
+    display: inline-block;
+    font-size: 2.2rem;
+    line-height: 0;
+    width: 250px;
+    height: 50px;
+    margin: 0 0 70px 0;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    color: #4682b4;
+    background-color: #f0f8ff;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; }
+
+/* Responsive
+--------------------------------------------------------------*/
+@media (min-width: 769px) {
+  .main_image {
+    height: 500px; }
+
+  #introduction .container {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between; }
+  #introduction .spot-box {
+    margin: 0 10px; }
+
+  #link a:hover {
+    color: #4682b4;
+    background-color: #FFF; } }
+
+/*# sourceMappingURL=style.css.map */
